@@ -17,12 +17,12 @@ html,body{
 .container{
     display: flex;
     align-items: center;
-    justify-content: between;
+    justify-content:space-between;
     margin:0px 5px;
     margin-left: 350px;
 }
 
-        .nav-title {
+        h1 {
             margin: 10px 10px 10px 20px;
             font-family: 'Roboto', sans-serif;
             font-weight: 500;
@@ -96,7 +96,12 @@ list-style-type: none;
     position: relative;
     font-size: 20px;
     padding: 80px;
+    
    
+}
+
+.info{
+    margin-top: 5px;
 }
 .jane_mid h3{
     display: inline;
@@ -212,7 +217,7 @@ font-size: 20px;
    float: right;
 position: relative;
     right: 15%;
-    bottom:140px;
+    bottom:170px;
     
 }
 
