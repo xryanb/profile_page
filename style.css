@@ -5,30 +5,64 @@ html,body{
     max-height: 100%;
 }
 /* top */
-
-.top{
-    margin-right: 300px;
-   
-   
-}
-
-#Profile{
-    font-size: 32px;
-    font-weight: 500;
-}
-.navbar-brand{
-    margin-left:300px;
-}
-
-.nav-link{
-    font-size: 20px;
-    margin:0px 50px;
-
-}
-.sign_out{
-    background-color:rgb(5, 151, 151);
+.nav{
+    background-color:black;
     color: white;
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+     
 }
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: between;
+    margin:0px 5px;
+    margin-left: 350px;
+}
+
+        .nav-title {
+            margin: 10px 10px 10px 20px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 40px;
+        }
+           
+
+        .nav-links{
+         display: flex;
+         justify-content: flex-start;
+         }
+
+        li{
+list-style-type: none;
+       margin:0px 10px;
+        }
+
+        a{
+          color: gray;
+            text-decoration: none;
+            font-family: 'Roboto',sans-serif;
+            font-weight: 300;
+        }
+
+.active{
+    color: white;
+    font-weight: 500px;
+}
+      
+.btn{
+            color: white;
+            background-color: rgb(4, 179, 179);
+            border: 2px solid black;
+          font-weight: bolder;
+          font-size: 20px;
+     position: absolute;
+     top: 20px;
+     right:15%;
+  }
+    
 
 /* card jane*/
 
@@ -85,7 +119,7 @@ html,body{
    float: right;
     position: relative;
     right: 15%;
-    top: 40px;
+    top: 20px;
     
 }
 .cr{
@@ -147,13 +181,16 @@ html,body{
     margin:40px 50px 50px 325px;
     border: 4px solid rgb(184, 184, 184);
     position: absolute;
-   bottom: -50px;
+   bottom: -80px;
+  
     }
 
 
     .coding{
 background-color: black;
 color: white;
+padding: 20px;
+font-size: 20px;
 
 }
 .coding h2{
@@ -162,8 +199,9 @@ color: white;
 }
 
 .dojo{
-    text-align: center;
-    padding: 30px;
+    text-align: left;
+    padding: 50px;
+    line-height: 2;
 }
 
 
@@ -174,7 +212,7 @@ color: white;
    float: right;
 position: relative;
     right: 15%;
-    bottom:210px;
+    bottom:140px;
     
 }
 
@@ -212,9 +250,12 @@ position: relative;
 
 .yrend{
     border: 2px solid rgb(184,184,184);
+    padding: 5px;
    
 }
 
 .yrend a{
     margin-left: 15px;
+    text-decoration: underline;
+    color: blue;
 }
