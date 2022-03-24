@@ -1,0 +1,220 @@
+*{
+    margin:0px
+}
+html,body{
+    max-height: 100%;
+}
+/* top */
+
+.top{
+    margin-right: 300px;
+   
+   
+}
+
+#Profile{
+    font-size: 32px;
+    font-weight: 500;
+}
+.navbar-brand{
+    margin-left:300px;
+}
+
+.nav-link{
+    font-size: 20px;
+    margin:0px 50px;
+
+}
+.sign_out{
+    background-color:rgb(5, 151, 151);
+    color: white;
+}
+
+/* card jane*/
+
+.merge{
+    display: inline-block;
+}
+.card{
+    width: 700px;
+
+    margin:40px 50px 50px 325px;
+    
+  
+}
+.jane{
+    border: 4px solid rgb(184, 184, 184);
+}
+.jane_top{
+    background-color: rgb(4, 179, 179);
+    height: 100px;
+}
+
+.jane_pic{
+    position: relative;
+    border:4px solid rgb(184, 184, 184);
+    border-radius:50%;
+    left: 50px;
+    top: 50px;
+}
+
+.jane_mid{
+    position: relative;
+    font-size: 20px;
+    padding: 80px;
+   
+}
+.jane_mid h3{
+    display: inline;
+    
+}
+.jane_end{
+    position: relative;
+    left: 30px;
+    bottom:20px
+}
+
+/* connection requests*/
+
+
+
+.connection_requests{
+   border: 4px solid rgb(184, 184, 184);
+    width:500px;
+    
+   float: right;
+    position: relative;
+    right: 15%;
+    top: 40px;
+    
+}
+.cr{
+  background-color: black;
+  height:70px;
+}
+.cr h3{
+ text-align: center;
+ color: white;
+}
+
+.crmove{
+    position: relative;
+    top:20px;
+}
+
+.crtwo{
+    border: 1px solid gray;
+    border-radius: 80%;
+    border-width: 10px;
+    background-color: gray;
+    color: black;
+}
+.two{
+    border:2px solid grey;
+   color: white;
+   background-color: grey;
+   border-radius:50%;
+   height: 100px;
+   width: 100px;
+    
+}
+
+.cr_mid{
+    margin: 5px;
+}
+
+.crp{
+    display: inline;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.tp{
+    border:4px solid rgb(184, 184, 184);
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.ac{
+    margin-left:60px;
+}
+
+/* education */
+
+
+.education{
+    width: 700px;
+    margin:40px 50px 50px 325px;
+    border: 4px solid rgb(184, 184, 184);
+    position: absolute;
+   bottom: -50px;
+    }
+
+
+    .coding{
+background-color: black;
+color: white;
+
+}
+.coding h2{
+    margin-left: 45px;
+  
+}
+
+.dojo{
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* your connections*/
+.your_connections{
+    border: 4px solid rgb(184, 184, 184);
+    width:500px;
+   float: right;
+position: relative;
+    right: 15%;
+    bottom:210px;
+    
+}
+
+.yr{
+    background-color: black;
+    height: 70px;
+}
+
+.yr h3{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 20px;
+}
+
+.yrplus{
+    border-radius: 50%;
+    border: 2px solid gray;
+   border-width:10px;
+   color: black;
+   background-color: gray;
+}
+
+
+.yr_mid{
+    margin: 5px;
+}
+.yr_mid img{
+    border-radius: 50%;
+    margin-left: 10px;
+    border: 3px solid gray;
+}
+
+
+
+.yrend{
+    border: 2px solid rgb(184,184,184);
+   
+}
+
+.yrend a{
+    margin-left: 15px;
+}
