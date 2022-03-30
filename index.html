@@ -40,11 +40,11 @@
                 <img src="/icons/map-marker.png" height="20px" alt="mark"> <h3>Seattle</h3>
                 <p class="info">Developer | Engineer | Problem Solver</p>
                 <p class="info">Master of shadows and the internet!</p>
-                </div>
-                <div class="jane_end">
+            </div>
+            <div class="jane_end">
                 <img src="/icons/gear.png" height="20px" alt="gear">
-                <a href="">edit profile</a>
-                </div>
+                <a href="#" class="edit" onclick="nameChange(this)">edit profile</a>
+            </div>
             </div>
         </div>
     </div>
@@ -55,23 +55,30 @@
         
        </div>
        <div class="cr_mid">
-           <img src="/images/todd-s.jpg" alt="tod" height="80px" class="tp">
-           <p class="crp">Todd E</p>
-           <img src="/icons/accept-circle.png" alt="accept" height="30px" class="ac">
-           <img src="/icons/close-circle.png" alt="close" height="30px" class="ac">
+           <ul>
+        <li id="first-request" >
+           <img src="/images/todd-s.jpg" alt="tod" height="80px" class="tp user">
+           <p class="crp user">Todd E</p>
+           <img src="/icons/accept-circle.png" alt="accept" height="30px" class="ac yes" onclick="disappear('#first-request')">
+           <img src="/icons/close-circle.png" alt="close" height="30px" class="ac no" onclick="disappear('#first-request')">
+           </li>
            <br>
            <br>
            <br>
-           <img src="/images/phil-s.jpg" alt="phil" height="80px" class="tp">
-           <p class="crp">Phil K</p>
-           <img src="/icons/accept-circle.png" alt="accept" height="30px" class="ac">
-           <img src="/icons/close-circle.png" alt="close" height="30px" class="ac">
+    <li id="second-request">
+        <img src="/images/phil-s.jpg" alt="phil" height="80px" class="tp userP">
+           <p class="crp userP">Phil K</p>
+           <img src="/icons/accept-circle.png" alt="accept" height="30px" class="ac yes userP" onclick="disappear('#second-request')">
+         
+          <img src="/icons/close-circle.png" alt="close" height="30px" class="ac no userP" onclick="disappear('#second-request')"> 
+          </li>
+          </ul>
        </div>
        </div>
 
        <div class="your_connections">
         <div class="yr">
-     <h3><span class="yrplus">500+</span> Your Connections</h3>
+     <h3><span class="yrplus" id="fiveHundred">500+</span> Your Connections</h3>
          
         </div>
         <div class="yr_mid">
@@ -114,6 +121,6 @@
 
 
 </main>
-
+<script src="/script.js"></script>
 </body>
 </html>

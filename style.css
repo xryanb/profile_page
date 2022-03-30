@@ -58,7 +58,7 @@ list-style-type: none;
             border: 2px solid black;
           font-weight: bolder;
           font-size: 20px;
-     position: absolute;
+     position: absolute; 
      top: 20px;
      right:15%;
   }
@@ -72,7 +72,7 @@ list-style-type: none;
 .card{
     width: 700px;
 
-    margin:40px 50px 50px 325px;
+    margin:30px 50px 50px 325px;
     
   
 }
@@ -88,18 +88,16 @@ list-style-type: none;
     position: relative;
     border:4px solid rgb(184, 184, 184);
     border-radius:50%;
-    left: 80px;
+    left: 70px;
     top: 80px;
 }
 
 .jane_mid{
     position: relative;
     font-size: 20px;
-    padding: 100px;
+    padding: 100px;  
     
-   
 }
-
 
 .doe{
     margin: 0px -5px;
@@ -129,7 +127,7 @@ list-style-type: none;
    float: right;
     position: relative;
     right: 15%;
-    top: 40px;
+    top: 30px;
     
 }
 .cr{
@@ -169,12 +167,12 @@ list-style-type: none;
 }
 
 .crp{
-    display: inline;
+    
     margin-left: 10px;
     font-size: 25px;
     font-weight: 500;
     position: relative;
-    bottom: 30px;
+    bottom: 20px;
     
 }
 
@@ -199,7 +197,7 @@ list-style-type: none;
     margin:40px 50px 50px 325px;
     border: 4px solid rgb(184, 184, 184);
     position: absolute;
-   bottom: -100px;
+   bottom: -110px;
   
     }
 
@@ -220,6 +218,7 @@ font-size: 20px;
     text-align: left;
     padding: 50px;
     line-height: 2;
+    
 }
 
 
@@ -230,7 +229,8 @@ font-size: 20px;
    float: right;
 position: relative;
     right: 15%;
-    bottom:235px;
+  bottom: 200px;
+  
     
 }
 
@@ -269,7 +269,7 @@ position: relative;
 .yrend{
     border: 2px solid rgb(184,184,184);
     padding: 10px;
-    margin-top: 5px;
+  
    
 }
 
@@ -277,4 +277,10 @@ position: relative;
     margin-left: 15px;
     text-decoration: underline;
     color: blue;
+}
+
+
+li{
+    display: flex;
+    align-items: center;
 }
